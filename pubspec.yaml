@@ -1,0 +1,12 @@
+name: ym_linter
+description: A Dart project to manage custom_linter.
+
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  analyzer: ^6.2.0
+  analyzer_plugin: ^0.11.3
+  custom_lint_builder: ^0.5.3

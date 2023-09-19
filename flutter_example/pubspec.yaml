@@ -1,0 +1,25 @@
+name: example
+description: A Flutter project as example to use ym_linter package.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=3.10.5"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  custom_lint: ^0.5.3
+  flutter_lints: ^2.0.3
+  flutter_test:
+    sdk: flutter
+  ym_linter:
+    path: ..
+
+flutter:
+  uses-material-design: true
